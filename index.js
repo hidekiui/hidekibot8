@@ -1,5 +1,5 @@
 /*
-Hallo iam Ramlan:)
+hidekizin rs:)
 SC By : RAMLAN GANS
 */
 //YANG ATAS JANGAN DI UBAH UM:)
@@ -69,7 +69,7 @@ async function starts() {
         fs.writeFileSync('./Ramlan.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
         setInterval(function () {
   for (i = 0; i < 3; i++) {
-    console.log(`[ ${moment().format("HH:mm:ss")} ] => Hallo I'm Ramlan :)`)
+    console.log(`[ ${moment().format("HH:mm:ss")} ] => hidekizin rs :)`)
   }
 }, 15000)
 	client.on('group-participants-update', async (anu) => {
@@ -146,7 +146,7 @@ async function starts() {
 				only: {
 					group: '❌Este comando só pode ser usado em grupos! ❌',
 					ownerG: '❌ Perintah ini hanya bisa di gunakan oleh owner group! ❌',
-					ownerB: '❌𝗔𝗣𝗘𝗡𝗔𝗦 𝗠𝗘𝗨 𝗖𝗥𝗜𝗔𝗗𝗢𝗥 𝗣𝗢𝗗𝗘 𝗨𝗦𝗔𝗥 𝗘𝗦𝗧𝗘 𝗖𝗢𝗠𝗔𝗡𝗗𝗢== 𝗕𝗿𝘂𝘅𝗶𝗻𝗵𝗼𝗠𝗢𝗗𝗦! ❌',
+					ownerB: '❌𝗔𝗣𝗘𝗡𝗔𝗦 𝗠𝗘𝗨 𝗖𝗥𝗜𝗔𝗗𝗢𝗥 𝗣𝗢𝗗𝗘 𝗨𝗦𝗔𝗥 𝗘𝗦𝗧𝗘 𝗖𝗢𝗠𝗔𝗡𝗗𝗢=! ❌',
 					admin: '❌ 𝗕𝗢𝗧 𝗦𝗘𝗠 𝗔𝗗𝗠 ! ❌',
 					Badmin: '❌𝗕𝗢𝗧 𝗦𝗘𝗠 𝗔𝗗𝗠, 𝗜𝗠𝗣𝗢𝗦𝗦𝗜𝗩𝗘𝗟 𝗗𝗘 𝗖𝗢𝗡𝗖𝗟𝗨𝗜𝗥 𝗢 𝗖𝗢𝗠𝗔𝗡𝗗𝗢!! ❌'
 				}
@@ -515,7 +515,7 @@ async function starts() {
 						mentions(teks, mentioned, true)
 						client.groupRemove(from, mentioned)
 					} else {
-						mentions(`𝗥𝗘𝗠𝗢𝗩𝗜 𝗢 @${mentioned[0].split('@')[0]} 𝗗𝗢 𝗚𝗥𝗨𝗣𝗢, 𝗘𝗟𝗘 𝗙𝗔𝗟𝗛𝗢𝗨 𝗡𝗔 𝗠𝗜𝗦𝗦𝗔𝗢 𝗗𝗘 𝗥𝗘𝗦𝗣𝗘𝗜𝗧𝗔𝗥 𝗔𝗦 𝗥𝗘𝗚𝗥𝗔𝗦!`, mentioned, true)
+						mentions(`o negro do @${mentioned[0].split('@')[0]} perdeu adm rs`, mentioned, true)
 						client.groupDemoteAdmin(from, mentioned)
 					}
 					break
